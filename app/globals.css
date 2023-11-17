@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    height: 500px;
+  }
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-break: break-word;
+  }
+  
+  .user-msg {
+    background-color: #e1f5fe;
+    align-self: flex-end;
+    border-top-right-radius: 0;
+  }
+  
+  .ai-msg {
+    background-color: #fce4ec;
+    align-self: flex-start;
+    border-top-left-radius: 0;
+  }
+  
